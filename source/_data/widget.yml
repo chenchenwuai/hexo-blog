@@ -1,3 +1,7 @@
+#--------------------------------------------
+# volantis theme widget
+#--------------------------------------------
+
 # 文档导航
 guide:
   class: grid
@@ -29,6 +33,8 @@ guide:
       url: https://github.com/xaoxuu/hexo-theme-volantis/releases/
       rel: external nofollow noopener noreferrer
       target: _blank
+#--------------------------------------------
+
 # 项目仓库
 repos:
   class: text
@@ -43,7 +49,7 @@ repos:
     - '[<img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/logo.png" height="50px">](https://github.com/xaoxuu/ProHUD)'
     - '[<img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/valuex/logo.png" height="50px">](https://github.com/xaoxuu/ValueX)'
     - '[<img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/inspire/logo.png" height="50px">](https://github.com/xaoxuu/Inspire)'
-
+#--------------------------------------------
 
 # qrcode widget
 qrcode:
@@ -56,6 +62,8 @@ qrcode:
   fancybox: #true
   images:
     - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/wiki_volantis.png
+#--------------------------------------------
+
 
 help:
   class: page
@@ -65,6 +73,7 @@ help:
     title: 帮助
   pid: faq
   content: excerpt # excerpt, more, content
+#--------------------------------------------
 
 news:
   class: list
@@ -79,6 +88,7 @@ news:
     - name: 升级小助手
       icon: fas fa-angle-double-up
       url: /v2/getting-started/#升级小助手
+#--------------------------------------------
 
 docs-v2:
   class: group
@@ -86,7 +96,8 @@ docs-v2:
   header:
     icon: fas fa-list-alt
     title: 文档 v2
-    
+#--------------------------------------------
+
 group-1:
   class: group
   display: [desktop, mobile] # [desktop, mobile]
@@ -94,3 +105,4 @@ group-1:
     icon: fab fa-apple
     title: Developer
     url: /tags/
+#--------------------------------------------
