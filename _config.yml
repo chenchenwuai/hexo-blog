@@ -14,7 +14,7 @@ avatar: https://i.loli.net/2020/07/02/JKNsSczEb68Rlvj.gif
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: 
 root: /
 permalink: :title/
 permalink_defaults:
@@ -71,7 +71,9 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  测试: test
 tag_map:
+  测试: test
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta

@@ -1,0 +1,9 @@
+- name: 首页
+  icon: 
+  url: /
+- name: 文章
+  # icon: fas fa-book
+  url: archives/
+- name: 分类
+  # icon: fas fa-folder-open
+  url: categories/
