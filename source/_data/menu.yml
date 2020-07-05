@@ -8,3 +8,12 @@
 - name: 分类
   # icon: fas fa-folder-open
   url: categories/
+- name: 标签
+  # icon: fas fa-folder-open
+  url: tags/
+- name: 友链
+  # icon: fas fa-folder-open
+  url: friends/
+- name: 关于
+  # icon: fas fa-folder-open
+  url: about/
