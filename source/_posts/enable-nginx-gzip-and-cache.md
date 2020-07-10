@@ -1,6 +1,6 @@
 ---
 title: nginx开启gzip和缓存
-date: 2020-07-05 19:15:55
+date: 2020-06-16 19:15:55
 tags: 
   - nginx
   - gzip

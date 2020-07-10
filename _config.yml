@@ -224,7 +224,7 @@ theme_config:
       - name: 首页
         # icon: 
         url: /
-      - name: 文章
+      - name: 归档
         # icon: fas fa-book
         url: archives/
       - name: 分类
@@ -233,9 +233,9 @@ theme_config:
       - name: 标签
         # icon: fas fa-folder-open
         url: tags/
-      - name: 友链
+      - name: 收藏
         # icon: fas fa-folder-open
-        url: friends/
+        url: recommends/
       - name: 关于
         # icon: fas fa-folder-open
         url: about/
