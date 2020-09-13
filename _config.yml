@@ -380,8 +380,6 @@ theme_config:
         height: 64px  # Automatic height if not set
         fancybox: true
         images:
-          - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/wiki_volantis.png
-          - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/wiki_volantis.png
       
 comments:
   title: <i class='fas fa-comments'></i> 评论

@@ -61,7 +61,6 @@ qrcode:
   height: #64px  # Automatic height if not set
   fancybox: #true
   images:
-    - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/wiki_volantis.png
 #--------------------------------------------
 
 
