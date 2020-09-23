@@ -1,5 +1,5 @@
 ---
-title: TypeScript学习(1)
+title: TypeScript学习(1)-基础类型
 date: 2020-07-10 08:36:22
 tags: TypeScript
 categories: TypeScript

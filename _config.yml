@@ -95,7 +95,7 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
+include: 
 exclude:
 ignore:
 
@@ -162,13 +162,13 @@ theme_config:
       # 如果tags放置在meta.header中，那么在post列表中不显示（因为卡片下方已经有了）
       meta:
         header: [title, author, category, date,wordcount, top]
-        footer: [updated, tags, btns, share]
+        footer: [updated, tags, btns]
       # 文章页面的侧边栏
       sidebar: [toc]
     # 文章布局，参数继承自 on_page
     on_post:
       # 文章页脚，自动在每一篇文章末尾添加
-      article_footer: [references, related_repos, copyright, donate]
+      article_footer: [references, related_repos, copyright]
     # 其他的页面布局暂时等于 on_list
 
 
@@ -267,10 +267,10 @@ theme_config:
       desc: '条评论'
     # 文章分享 
     share:
-      - id: qq
-        img: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qq.png
-      - id: weibo
-        img: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/weibo.png
+      # - id: qq
+      #   img: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qq.png
+      # - id: weibo
+      #   img: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/weibo.png
       # - id: qrcode # 当id为qrcode时需要安装插件  npm i -S hexo-helper-qrcode
       #   img: 
       # - id: telegram
@@ -380,8 +380,6 @@ theme_config:
         height: 64px  # Automatic height if not set
         fancybox: true
         images:
-          - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/wiki_volantis.png
-          - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/wiki_volantis.png
       
 comments:
   title: <i class='fas fa-comments'></i> 评论

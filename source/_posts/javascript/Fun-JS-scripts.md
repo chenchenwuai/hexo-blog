@@ -4,12 +4,12 @@ date: 2020-09-23 20:55:00
 tags: javascript
 categories: javascript
 ---
-简单的几个脚本,不像TamperMonkey那样强植入, 也无需去Chrome应用商店安装什么扩展插件.
+简单的几个脚本,不像TamperMonkey那样强植入, 也无需安装浏览器扩展插件.
 <!--more-->
-
+### 脚本列表
 **如果未来有新脚本, 会陆续在这里更新.**
-
-1. 解除网页禁止复制的限制（同时去除复制内容末尾自动附加的额外小尾巴信息）
+*具体使用方法在页面底部*
+1. 解除网页禁止复制的限制（同时去除复制内容末尾自动附加的额外小尾巴信息
 ```javascript
   javascript:window.oncontextmenu=document.oncontextmenu=document.oncopy=null; [...document.querySelectorAll('body')].forEach(dom => dom.outerHTML = dom.outerHTML); [...document.querySelectorAll('body, body *')].forEach(dom => {['onselect', 'onselectstart', 'onselectend', 'ondragstart', 'ondragend', 'oncontextmenu', 'oncopy'].forEach(ev => dom.removeAttribute(ev)); dom.style['user-select']='auto';});
 ```
@@ -34,4 +34,12 @@ categories: javascript
   javascript:[...document.querySelectorAll('textarea, input')].forEach(i => { i.removeAttribute('disabled'); i.removeAttribute('readonly') });
 ```
 
+> 如果你想要其他脚本，在评论区回复吧.
 
+### 使用方法
+*以下三种方法可任选其一*
+1. 直接复制脚本代码，然后粘贴浏览器的地址栏，然后回车确定（chrome浏览器会去掉前面的 `javascript` 字母，需要手动加上，部分浏览器的地址栏可能不支持输入脚本）。（如果你想快速体验，可选择这一种）
+
+2. 复制脚本代码，然后新建浏览器书签，将代码粘贴到网址的输入框内，名字自己定义，然后保存。打开你需要操作的网页，然后再点击选择此书签。ok！（如果你以后也有使用的需求，可选择这一种）
+
+3. 如果你会一点前端调试功能，可以直接打开网页的console，(chrome按F12键或右键页面任意处然后选择检查)。将复制的代码粘贴到console里，然后回车执行。（你想装逼？选择这种吧）

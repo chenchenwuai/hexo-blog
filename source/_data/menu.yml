@@ -2,7 +2,7 @@
 - name: 首页
   icon: 
   url: /
-- name: 文章
+- name: 归档
   # icon: fas fa-book
   url: archives/
 - name: 分类
