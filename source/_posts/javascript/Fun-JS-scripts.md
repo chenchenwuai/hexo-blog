@@ -1,8 +1,8 @@
 ---
 title: 推荐几个实用或好玩的js脚本
 date: 2020-09-23 20:55:00
-tags: javascript
-categories: javascript
+categories: 前端
+tags: ['javascript','js脚本']
 ---
 简单的几个脚本,不像TamperMonkey那样强植入, 也无需安装浏览器扩展插件.
 <!--more-->

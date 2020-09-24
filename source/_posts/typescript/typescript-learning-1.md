@@ -2,10 +2,9 @@
 title: TypeScript学习(1)-基础类型
 date: 2020-07-10 08:36:22
 tags: TypeScript
-categories: TypeScript
+categories: 前端
 ---
-> 学习资源为[TypeScript中文网](https://www.tslang.cn/docs/home.html)
-
+> 搬运[TypeScript中文网 - 基础类型](https://www.tslang.cn/docs/handbook/basic-types.html)
 为了方便，无特殊说明，以下的`js`表示 JavaScript，`ts`表示TypeScript
 <!--more-->
 ### 基础类型
