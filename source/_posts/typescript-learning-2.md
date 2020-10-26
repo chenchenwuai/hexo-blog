@@ -1,15 +1,14 @@
 ---
-title: TypeScript学习(1)-基础类型
-date: 2020-07-10 08:36:22
+title: TypeScript学习(2)-接口
+date: 2020-09-13 11:29:20
 tags: TypeScript
-categories: 前端
+categories: TypeScript
 ---
 > 学习资源为[TypeScript中文网](https://www.tslang.cn/docs/home.html)
 
-
 为了方便，无特殊说明，以下的`js`表示 JavaScript，`ts`表示TypeScript
 <!--more-->
-### 基础类型 
+### 基础类型
 
 基础类型包括 `boolean`,`number`,`string`,`数组`,`元组`,`enum`,`any`,`void`,`null`,`undefined`.`never`,`object`.
 使用方法
