@@ -277,24 +277,24 @@ apply和call的区别只有参数的区别，所以实现方式几乎一样
 ```
 
 ### 3.实现bind
-有两种实现bind的方法，下面第一种不支持使用new调用新创建的构造函数，而第二种支持。
+以下是两种实现bind的方法
 ```javascript
   // 第一种
-  var slice = Array.prototype.slice;
-  Function.prototype.bind = function() {
-    var thatFunc = this, thatArg = arguments[0];
-    var args = slice.call(arguments, 1);
-    if (typeof thatFunc !== 'function') {
-      // closest thing possible to the ECMAScript 5
-      // internal IsCallable function
-      throw new TypeError('Function.prototype.bind - ' +
-             'what is trying to be bound is not callable');
+  Function.prototype.bind = function(context,...args){
+    const func = this
+    if(typeof func !== 'function'){
+      throw new TypeError('Not A Function!')
     }
-    return function(){
-      var funcArgs = args.concat(slice.call(arguments))
-      return thatFunc.apply(thatArg, funcArgs);
-    };
-  };
+    
+    args = args || []
+
+    return function newFn(...newArgs){
+      if(this instanceof newFn){
+        return new func(...args, ...newArgs)
+      }
+      return func.apply(context,[...args,...newArgs])
+    }
+  }
 ```
 ```javascript
   // 第二种
