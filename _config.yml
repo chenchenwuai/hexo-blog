@@ -194,13 +194,13 @@ theme_config:
         # weight: normal
         # style: normal
     color:
-      # site: '#21232F' # Website background color
+      site: '#80D0C7' # Website background color
       # site_inner: '#fff' # Text color inside the website background
       site_footer: '#fff' # Footer text color inside the website background
       # card: '#444' # Card background color
       # text: '#fff' # The color of the text on the card.
-      # theme: '#ff9800' # Main color
-      # link: '#1BCDFC' # Link color
+      # theme: '#80D0C7' # Main color
+      # link: '#80D0C7' # Link color
       # hover: '#ff5722' # Link highlight color
       # inner: '#333' # Text color inside the button
       # block: '#555' # Block color
@@ -233,9 +233,6 @@ theme_config:
       - name: 标签
         # icon: fas fa-folder-open
         url: tags/
-      - name: 收藏
-        # icon: fas fa-folder-open
-        url: recommends/
       - name: 关于
         # icon: fas fa-folder-open
         url: about/
@@ -308,7 +305,7 @@ theme_config:
       duration: 20000       # Duration (ms)
       fade: 1500            # fade duration (ms) (Not more than 1500)
       images:               # For personal use only. At your own risk if used for commercial purposes !!!
-        - https://ftp.bmp.ovh/imgs/2020/09/21659002293985c1.jpg
+        - https://sm.ms/image/QzxAUSYsPTy47mK
 
     # npm i --save hexo-wordcount
     wordcount: true
