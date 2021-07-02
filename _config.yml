@@ -109,7 +109,7 @@ theme: volantis
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: 'git'
-  repo: git@github.com:chenchenwuai/chenchenwuai.github.io.git
+  repo: root@101.34.18.110:/var/www/github/hexo.git
   branch: master
 
 
