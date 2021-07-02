@@ -207,6 +207,7 @@ theme_config:
       # inlinecode: '#555' # Inline code color
       # codeblock: '#555' # Codeblock color
       # p: '#ccc' # Paragraph color
+      background: linear-gradient(-225deg,#2CD8D5 0%,#C5C1FF 50%,#20E2D7 100%)
   #--------------------------------------
 
   # cover
