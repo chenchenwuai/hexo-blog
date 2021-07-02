@@ -6,6 +6,7 @@ meta:
   footer: []
 sidebar: []
 comments: false
+cover: true
 ---
 
 {% btns center circle %}
