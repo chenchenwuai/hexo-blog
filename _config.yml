@@ -374,8 +374,8 @@ comments:
   # Valine
   # https://valine.js.org/
   valine:
-    appId: WejbCC8RLTPewc4OvGiBwbrQ-9Nh9j0Va # your appId
-    appKey: rRQmu3tAGKA3ninoifDlSmeH # your appKey
+    appId: zX5MgeWX550Tyt4yX6OWVktB-gzGzoHsz # your appId
+    appKey: qBxFJBiOKjdBtLv3bwz7eo9U # your appKey
     # js: https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js
     path: # All pages use the same path (share the same comments data)
     meta: nick,mail,link # valine comment header info
